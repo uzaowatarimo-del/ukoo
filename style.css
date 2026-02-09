@@ -1,0 +1,75 @@
+.gradientbac {
+  background: linear-gradient(-85deg,#ffffff,#000000);
+  background-size: 400% 400%;
+  animation: gradientmove 10s infinite;  
+}
+.gradientbacbabu {
+  background: linear-gradient(-180deg,#000000,#dfdfdf);
+  background-size: 400% 400%;
+  animation: gradientmove 10s infinite;  
+}
+@keyframes gradientmove {
+    0%{background-position: 0% 50%;}
+    50%{background-position: 100% 50%;}
+    100%{background-position: 0%50%;}
+}
+.homehead { 
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: #00ff00;
+    font-style: italic;
+    -webkit-text-stroke:2px #000000;
+    text-shadow: 0 50px 100px #ffffff;
+    margin-top: 230px;
+}
+.vitukati {
+   display: flex; 
+   justify-content: center;
+   height: 100vh;
+   align-items: flex-start;
+}
+
+.buttonzapicha {
+    margin-top: 20px;
+    background-color: #d6d1f3;
+    border-radius: 5px;
+     box-shadow:0 4px 10px #000000; 
+     border: none;   
+}
+.slidefrombutton {
+    opacity: 0;
+    transform: translateY(100vh);
+    animation:slidefrombutton 0.4s ease-out forwards;
+}
+@keyframes slidefrombutton {
+    from { transform: translateY(100vh);opacity: 0;}
+    to { transform: translateY(0); opacity: 1;}  
+}
+.maincontainer { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(155deg,#000000,#ffffff);
+    animation: gradientmove 100s infinite;
+    border-radius: 10px; 
+    box-shadow:0 4px 10px #000000;
+    height: 100vh; 
+}
+.babuheading {
+    text-align: center;
+    font-size: 60px;
+    font-weight: 1000;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: #00ff00;
+    font-style: italic;
+    -webkit-text-stroke:2px #000000;
+    margin-top: 200px;  
+}
+.lines{
+    border: none;
+    background-color: rgb(255, 255, 255);
+    height: 5px;
+    border-radius: 10px;   
+}
