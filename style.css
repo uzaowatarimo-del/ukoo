@@ -63,7 +63,8 @@
     background-color: #d6d1f3;
     border-radius: 5px;
     box-shadow:0 8px 20px #000000; 
-    border: none;   
+    border: none;
+
 }
 .slidefrombutton {
     opacity: 0;
@@ -76,15 +77,18 @@
 }
 .taarifazamtuleft{
    text-align: left;
-   margin-left: 10px;
+   margin-left: 20px;
+   margin-top: -22px;
    color: #3700ff;
+   font-size: 11px;
 }
 
 .taarifazamturight{
    text-align: left;
-   margin-left: 300px;
-   margin-top: -170px;
+   margin-left: 220px;
+   margin-top: -150px;
    color: #3700ff;
+   font-size: 11px;
     
 }
 .taarifazamtummoja{
@@ -99,6 +103,7 @@
     animation: gradientmove 100s infinite;
     border-radius: 10px; 
     box-shadow:0 4px 10px #000000;
+   
     
 }
 .babuheading {
