@@ -16,7 +16,8 @@
 .gradientbacwhatsap {
   background: linear-gradient(-85deg,#00ff15,#134e01);
   background-size: 100% 100%;
-  animation: gradientmove 10s infinite;  
+  animation: gradientmove 10s infinite; 
+  margin-top: 150px; 
 }
 @keyframes gradientmove {
     0%{background-position: 0% 50%;}
@@ -104,9 +105,17 @@
     background: linear-gradient(155deg,#000000,#ffffff);
     animation: gradientmove 100s infinite;
     border-radius: 10px; 
-    box-shadow:0 4px 10px #000000;
-   
-    
+    box-shadow:0 4px 10px #000000;   
+}
+.maincontainerwhatsap { 
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    background: linear-gradient(155deg,#0f4100,#000000);
+    animation: gradientmove 100s infinite;
+    border-radius: 10px; 
+    box-shadow:0 4px 10px #000000; 
+    margin-top: 100PX;  
 }
 .babuheading {
     text-align: center;
