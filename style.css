@@ -8,6 +8,11 @@
   background-size: 400% 400%;
   animation: gradientmove 10s infinite;  
 }
+.gradientlines {
+  background: linear-gradient(85deg,#ffffff,#000000);
+  background-size: 100% 100%;
+  animation: gradientmove 10s infinite;  
+}
 @keyframes gradientmove {
     0%{background-position: 0% 50%;}
     50%{background-position: 100% 50%;}
